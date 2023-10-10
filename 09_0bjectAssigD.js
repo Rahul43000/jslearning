@@ -35,3 +35,4 @@ for (const key of professor.certificates) {
     console.log(key);
 }
 
+   // count no.4 RAHUL
