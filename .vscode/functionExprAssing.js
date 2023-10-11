@@ -4,3 +4,6 @@ var result= function(value){
 }
 var result =(35);
 console.log(`square of 35 is $(result)`);
+
+
+s

@@ -29,4 +29,5 @@ console.log(`traverse the merge object-step 5 using for in loop`);
         console.log(key,SbiDetail[key]);   
     }
 
-
+Bank.Prototype.openTime="9 Am IST";
+console.log(`${openTime}`);
