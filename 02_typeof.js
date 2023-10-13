@@ -21,3 +21,7 @@ console.log("isWorking:",isWorking,"data type",typeof isorking);
 console.log("*********Ater initilatization*****");
 var isWorking=true;
 console.log("isWorking:" ,isWorking,"data type",typeof isWorking);
+
+
+const id="120",
+console.log( typeof id);

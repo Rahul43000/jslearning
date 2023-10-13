@@ -16,3 +16,5 @@ console.log(`Bank opening time pleae visit:${sbiBank.opentime}`);
 
 Bank.prototype.closetime ="6 AM IST";
 console.log(`Bank closing time please visit:${axisBank.closetime}`);
+
+
