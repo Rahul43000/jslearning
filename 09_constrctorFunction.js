@@ -10,11 +10,11 @@ console.log(axisBank);
 const HdfcBank = new Bank('hdfcbank','Dhule',12345);
 console.log(HdfcBank);
 
-console.log(`=======================================================`);
-Bank.prototype.opentime = "9 AM IST";
-console.log(`Bank opening time pleae visit:${sbiBank.opentime}`);
+//console.log(`=======================================================`);
+//Bank.prototype.opentime = "9 AM IST";
+//console.log(`Bank opening time pleae visit:${sbiBank.opentime}`);
 
-Bank.prototype.closetime ="6 AM IST";
-console.log(`Bank closing time please visit:${axisBank.closetime}`);
+//Bank.prototype.closetime ="6 AM IST";
+//console.log(`Bank closing time please visit:${axisBank.closetime}`);
 
 
