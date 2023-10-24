@@ -19,7 +19,7 @@ const bankMap= new Map();
 bankMap.set(123456,sbiBank);
 bankMap.set(567455,axisBank);
 bankMap.set(879089,HdfcBank);
-console.log(bankMap);
+
 let bankKeys =bankMap.keys();
 for (const keys of bankKeys) {
     let element = bankMap.get(keys);
