@@ -13,10 +13,9 @@ const emp_rishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
 const emp_sonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
 const emp_monica =  new Employee(77, "Monica", "IT", 40000, "Wipro");
 const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
-const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
- 
+const emp_mahi = new Employee(99, "Mahesh", "HR", 85000,"Infy");
 const arrayEmployee = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monica, emp_viny, emp_mahi];
- const newArr=arrayEmployee.sort((emp1,emp2 )=>{
+const newArr=arrayEmployee.sort((emp1,emp2 )=>{
        return emp1.emp_id > emp2.emp_id ? -1: 1;
  });
  console.log(`======================DESENDING ORDER================================`);
@@ -30,7 +29,7 @@ const arrayEmployee = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monica, e
 });
 console.log(`Employee details:`);
 newArr.forEach((currentvalue,index,array)=>{
-    console.log(`Employee id: ${currentvalue.emp_dept},Employee Name:${currentvalue.emp_id},Employee Dept:${currentvalue.emp_company}`);
+    console.log(`Employee dept: ${currentvalue.emp_dept},Employee Name:${currentvalue.emp_name},Employee Dept:${currentvalue.emp_company}`);
  });
  const newArr2 =arrayEmployee.sort((emp1,emp2 )=>{
     return emp1.emp_salary > emp2.emp_salary ? -1: 1;
@@ -38,6 +37,6 @@ newArr.forEach((currentvalue,index,array)=>{
 console.log(`===============DESENDING ORDER================================`);
 console.log(`Employee details:`);
 newArr.forEach((currentvalue,index,array)=>{
-    console.log(`Employee id: ${currentvalue.emp_salary},Employee Name:${currentvalue.emp_name},Employee Dept:${currentvalue.emp_company}`);
+    console.log(`Employee salary: ${currentvalue.emp_salary},Employee Name:${currentvalue.emp_name},Employee Dept:${currentvalue.emp_company}`);
  });
-console.log(`==============================END=================================================`);
+console.log(`=============================End=======================S`);
